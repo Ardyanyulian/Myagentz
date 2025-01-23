@@ -17,11 +17,11 @@ describe('admin', function(){
     })
 
     it('should be', function (){
-        interface function_Buat_Interface {
+        interface function_Interface {
             (value1 : string, value2: number)
         }
 
-        const add: function_Buat_Interface = (value1: string, value2 : number) => {
+        const add: function_Interface = (value1: string, value2 : number) => {
             return value1 + value2;
         }
 

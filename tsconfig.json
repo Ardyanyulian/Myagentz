@@ -1,6 +1,6 @@
 {
-  "include": ["test/**/*"],
-  "exclude": ["test/**/*.test.ts"],
+  "include": ["test/**/*", "typescript_oop/**/*"],
+  "exclude": ["test/**/*.test.ts", "typescript_oop/**/*.test.ts"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
